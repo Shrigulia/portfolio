@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: syne, Sans-serif;
+    flex-wrap: wrap;
+}
+::-webkit-scrollbar{
+    background-color: #ffc000;
+}
+body{
+    background-color: #141414;
+    /* position: relative; */
+}
+.active{
+    color: #ffc000;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    position: fixed;
+    width: 100%;
+    background-color: #141414;
+    z-index: 999;
+    top:0 ;
+    /* height: 15vh; */
+    /* border: 1px solid white; */
+}
+header h1{
+    color: #ffc000;
+    letter-spacing: 2px;
+    font-size: 3.5rem;
+}
+header .navbar{
+
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+}  
+.navbar ul a{
+    margin: 0 1rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    transition: all 0.2s;
+    text-decoration: none;
+}
+.navbar ul a:hover{
+    transition: all 0.2s;
+    color: #ffc000;
+}
+.navbar ul a .contactBtn{
+    border: 2px solid ;
+    padding: 0.3rem;
+    border-radius: 20px;
+    background-color: #ffc000;
+    color: #141414;
+    transition: all 0.3s;
+    box-shadow: 1px 2px 15px #ffc000;
+    outline: none;
+    border: none;
+} 
+.navbar ul a .contactBtn:hover{
+    background-color: #ffc000;
+    color: #141414;
+    box-shadow: 0px 0px 0px #ffc000;
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+/* header end */
+
+/* home sec */
+.home{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0;
+    height: 100vh;
+    /* border: 2px solid white; */
+}
+.home .leftSec{
+    color: white;
+    width: 40vw;
+    /* border: 2px solid white; */
+}
+.leftSec h3{
+    font-size: 3rem;
+}
+.leftSec h2{
+    font-size: 5rem;
+}
+.leftSec h4{
+    font-size: 2.2rem;
+}
+.leftSec h4 .profession{
+    color: #ffc000;
+}
+.leftSec p{
+    font-size: 1.3rem;
+    margin: 2rem 0;
+}
+.leftSec .social{
+    margin: 2rem 0;
+
+}
+.leftSec .social a{
+    text-decoration: none;
+}
+.leftSec .social i{
+    /* box-shadow: 1px 2px 15px #ffc000; */
+    background-color: #141414;
+    font-size: 2rem;
+    margin: 0 1rem;
+    transition: all 0.3s;
+    padding: 0.3rem;
+    color: #ffc000;
+}
+.leftSec .social i:hover{
+    transition: all 0.3s;
+    border-radius: 26px;
+    background-color: #ffbf0065;
+    box-shadow: 1px 2px 15px #ffc000;
+}
+.leftSec a button{
+    color: #141414;
+    background-color: #ffc000;
+    font-size:1.3rem ;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 1px;
+    padding: 0.3rem;
+    border-radius: 20px;
+    /* margin-top: 1rem; */
+    margin-left: 3rem;
+    font-weight: 600;
+    transition: all 0.2s;
+    box-shadow: 1px 2px 15px #ffc000;
+
+}
+.leftSec a button:hover{
+    transition: all 0.2s;
+    /* margin-top: 2rem; */
+    transform: scale(1.1);
+    box-shadow: 0px 0px 0px #ffc000;
+}
+.home .Img{
+    flex-basis: 25%;
+}
+.Img img{
+    width: 100%;
+    border-radius: 50%;
+}
+/* home sec end */
+
+/* about sec */
+.about{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+}
+.about .aboutCont{
+    text-align: center;
+    width: 30vw;
+}
+.aboutCont h2{
+    color: #fff;
+    font-size: 4rem;
+    letter-spacing: 1px;
+}
+.aboutCont h2 span{
+    color: #ffc000;
+}
+.aboutCont h3{
+    color: #fff;
+    font-size: 2rem;
+}
+.aboutCont p{
+    color: rgba(255, 255, 255, 0.87);
+    margin-top: 2rem;
+    font-size: 1.3rem;
+}.aboutCont p strong{
+    color: #ffc000;
+}
+/* about sec end */
+
+/* skill section  */
+.skills{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+}
+.skills h3{
+    font-size: 4rem;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+}
+.skills h3 span{
+    color: #ffc000;
+}
+.skills .skillCont{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:7rem;
+}
+.skillCont .skillItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ffc000;
+    border-radius: 70px;
+    padding: 1rem 0;
+    position: relative;
+    width: 10vw;
+    height: 25vh;
+    transition: all 0.3s;
+}
+.skillItem figure{
+    width: 50%;
+    /* border: 2px solid red; */
+}
+.skillItem figure img{
+    width: 100%;
+}
+.skillItem h4{
+    color: #fff;
+    position: absolute;
+    bottom:1rem;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+.skillItem h4 span{
+    color: #ffc000;
+}
+.skillItem:hover{
+    box-shadow: 1px 2px 15px #ffc000;
+    transition: all 0.3s;
+}
+/* skill section  end */
+
+/* portfolio section */
+.portfolio{
+    height: 100vh;
+}
+.portfolio h3{
+    text-align: center;
+    color: #ffc000;
+    font-size: 3.4rem;
+    letter-spacing: 2px;
+}
+.portfolio h3 span{
+    color: #fff;
+}
+.portfolio .portCont{
+
+}
+.portCont .portItem{
+    margin: 2rem 0;
+}
+.portItem h2{
+    color: #fff;
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+.portItem h2 span{
+    color: #ffc000;
+}
+.portItem h2 i{
+    font-size: 1.6rem;
+    color: #ffc000;
+}
+/* portfolio section end */
+
+/* contact section  */
+.contact{
+    /* height: 100vh; */
+}
+.contact h3{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.contact h3 span{
+    color: #ffc000;
+}
+.contact .contactCont{
+    margin: 5rem 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contactCont .details{
+
+}
+.details div{
+    margin: 2rem 0;
+    font-size: 2rem;
+}
+.details div a{
+    text-decoration: none;
+    color: white;
+}
+.details div a i{
+    margin-right: 1rem;
+}
+.details div a strong span{
+    color: #ffc000;
+}
+.details .location{
+    color: white;
+}
+.location i{
+    margin-right:1rem ;
+}
+.location strong span{
+    color: #ffc000;
+}
+/* portfolio section end */
+

@@ -1,0 +1,164 @@
+@media screen and (max-width:912px){
+    .skillCont .skillItem {
+        width: 18vw;
+        height: 18vh;
+    }
+}
+@media screen and (max-width:850px){
+    .leftSec h3 {
+        font-size: 2rem;
+    }
+    .leftSec h4 {
+        font-size: 1.4rem;
+    }
+    .leftSec p {
+        font-size: 1rem;
+    }
+    .leftSec .social i {
+        font-size: 1.4rem;
+    }
+    .home .Img {
+        flex-basis: 35%;
+    }
+    .about figure {
+        flex-basis: 37%;
+    }
+    .aboutCont h2 {
+        font-size: 3rem;
+    }
+    .aboutCont h3 {
+        font-size: 1.4rem;
+    }
+    .aboutCont p {
+        font-size: 1.2rem;
+    }
+    .skillCont .skillItem {
+        width: 18vw;
+        height: 27vh;
+    }
+    .contact .contactCont figure{
+        flex-basis: 35%;
+    }
+}
+
+@media screen and (max-width:748px){
+    header h1 {
+        letter-spacing: 0px;
+        font-size: 2.5rem;
+    }
+    .navbar ul a {
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 0px;
+    }
+    .home .leftSec {
+        width: 50vw;
+    }
+    .about .aboutCont {
+        width: 50vw;
+    }
+    .details div{
+        margin: 2rem 0;
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width:564px){
+    .navbar ul a {
+        margin: 0 0.4rem;
+    }
+    .leftSec h3 {
+        font-size: 1.5rem;
+    }
+    .leftSec h2 {
+        font-size: 4.4rem;
+    }
+    .leftSec h4 {
+        font-size: 1rem;
+    }
+    .leftSec p {
+        font-size: 0.8rem;
+    }
+    .leftSec .social i {
+        font-size: 1.2rem;
+        margin: 0 0.3rem;
+    }
+    .leftSec a button {
+        margin-left: 0rem;
+    }
+    .aboutCont h2 {
+        font-size: 2.4rem;
+    }
+    .aboutCont p {
+        font-size: 1.2rem;
+    }
+    .details div{
+        margin: 2rem 0;
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+}
+@media screen and (max-width:414px){
+    .skillCont .skillItem {
+        width: 27vw;
+        height:20vh;
+    }
+    .aboutCont p {
+        font-size: 0.6rem;
+    }
+}
+@media screen and (max-width:390px){
+    .navbar ul a{
+        font-size: 0.7rem;
+        margin: 0 0.4rem;
+    }
+    .home {
+        margin: 0 0;
+    }
+    .leftSec h4 {
+        font-size: 0.8rem;
+    }
+    .leftSec .social i {
+        font-size: 1rem;
+        margin: 0 0rem;
+    }
+    .aboutCont p {
+        font-size: 0.6rem;
+    }
+    .skillCont .skillItem {
+        width: 27vw;
+        height:20vh;
+    }
+    .details div{
+        margin: 2rem 0;
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+    }
+}
+@media screen and (max-width:388px){
+    .navbar ul a {
+        font-size: 0.7rem;
+    }
+    .navbar ul a {
+        margin: 0 0.7rem;
+    }
+    .leftSec h4 {
+        font-size: 0.7rem;
+    }
+    .leftSec .social i {
+        font-size: 1rem;
+        margin: 0 0.1rem;
+    }
+    .aboutCont p {
+        font-size: 0.6rem;
+    }
+    .skillCont .skillItem {
+        width: 27vw;
+        height: 18vh;
+    }
+    .details div{
+        margin: 2rem 0;
+        font-size: 0.8rem;
+        letter-spacing: 0px;
+    }
+    
+}
